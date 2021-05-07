@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop bd</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+ 
+<div class="container">
+    <div class="phone-cart col-md-12">
+        <div class="row">
+            <div class="col-md-7 center-item">
+                <img src="image/product-1.png" alt="">
+                <h6 id="phone-name">iPhone 11 128GB Black</h6>
+            </div>
+            <div class="col-md-5 center-item">
+                <div class="input-group center-item">
+                    <button onclick="handleProductChange('phone',false);">-</button>
+                    <input type="number" value="0" min="0" class="form-control text-center" id="phone-count">
+                    <button onclick="handleProductChange('phone',true);">+</button>
+                </div>
+                <h6 id="phone-price">$00</h6>
+                <img src="image/remove.png" alt="" class="remove-item">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="phone-cart col-md-12">
+        <div class="row">
+            <div class="col-md-7 center-item">
+                <img src="image/product-1.png" alt="">
+                <h6 id="phone-name">iPhone 11 128GB Black</h6>
+            </div>
+            <div class="col-md-5 center-item">
+                <div class="input-group center-item">
+                    <button onclick="handleProductChange('case',false);">-</button>
+                    <input type="number" value="0" min="0" class="form-control text-center" id="case-count">
+                    <button onclick="handleProductChange('case',true);">+</button>
+                </div>
+                <h6 id="case-price">$00</h6>
+                <img src="image/remove.png" alt="" class="remove-item">
+            </div>
+        </div>
+    </div>
+
+    <div class="phone-cart col-md-12">
+        <div class="row amount-area">
+            <div class="center-item">
+                <div class="col-md-8">
+                    <h6>Main:</h6>
+                    <h6>Tax:</h6>
+                    <h6>Total:</h6>
+                </div>
+            
+                <div class="col-md-4 status">
+                    <h6 id="main-price">$00</h6>
+                    <h6 id="tax-price">$00</h6>
+                    <h6 id="total-price">$00</h6>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-12">
+            <div class="button">
+                <button type="button" class="btn btn-info check-out">check out</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <i class="fas fa-plus-circle" style="font-size:30px;"></i>
+    
+    <i class="fas fa-minus-circle" style="font-size:30px;"> </i>
+    
+
+    
+
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ee3c098242.js" crossorigin="anonymous"></script>
+</body>
+</html>

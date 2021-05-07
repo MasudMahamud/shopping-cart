@@ -1,0 +1,84 @@
+body {
+    background: #cac0f1;
+    font-family: sans-serif;
+    color: darkgreen;
+}
+
+img{
+    max-width: 120px;
+    margin-left: 27px;
+}
+
+.phone-cart{
+    background: #dedede;
+    margin-bottom: 25px;
+    padding: 40px;
+}
+.center-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#phone-name{
+    margin-left: 60px;
+}
+#phone-price {
+    background: cadetblue;
+    color: bisque;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: auto;
+}
+
+#case-price {
+    background: cadetblue;
+    color: bisque;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: auto;
+}
+
+.remove-item {
+    width: 20px;
+    padding: 2px;
+    background: black;
+    color: red;
+    border-radius: 5px;
+}
+
+#phone-count {
+    background: #243131;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    max-width: 80px;
+    margin: 0px 10px;
+    font-family: emoji;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#case-count{
+    background: #243131;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    max-width: 80px;
+    margin: 0px 10px;
+    font-family: emoji;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.status{
+    text-align: right;
+}
+
+.status-1{
+    text-align: left;
+}
+
+.check-out{
+    float: right;
+    
+}
